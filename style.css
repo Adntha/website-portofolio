@@ -4,11 +4,11 @@
 :root {
     --primary-color: #ff014f;
     --secondary-color: #1e1e1e;
-    --text-color: #3c3e41;
-    --background-color: #ecf0f3;
+    --text-color: #868B8F;
+    --background-color: #23253A;
     --section-padding: 100px 0;
-    --card-bg: #ffffff;
-    --heading-color: #1e1e1e;
+    --card-bg: #23253A;
+    --heading-color: #868B8F;
 }
 
 * {
@@ -413,7 +413,7 @@ h2 {
 }
 
 .certificate-card {
-    background-color: #fff;
+    background-color: #2B2E41;
     border-radius: 10px;
     padding: 1.5rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -430,7 +430,7 @@ h2 {
 
 /* Contact Section */
 .contact {
-    background-color: #f8f9fa;
+    background-color: #23253A;
     text-align: center;
 }
 
