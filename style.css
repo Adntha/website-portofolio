@@ -60,7 +60,17 @@ body {
     color: var(--text-color);
     font-weight: 500;
     font-size: 0.9rem;
-    transition: color 0.3s ease;
+    transition: color 0.3s ease;  
+}
+
+.nav-links a:hover {
+    color: var(--primary-color);
+}
+
+.nav-links.active {
+    color: var(--primary-color);
+    font-weight: bold;
+    border-bottom: 2px solid var(--primary-color);
 }
 
 .project-links a:hover {
