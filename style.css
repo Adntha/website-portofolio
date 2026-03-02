@@ -10,7 +10,11 @@
     --card-bg: #2B2E41;
     --heading-color: #868B8F;
 
-
+    /* hover color */
+    --text-color-hover: #3c3e41;
+    --background-color-hover: #ecf0f3;
+    --card-bg-hover: #ffffff;
+    --heading-color-hover: #1e1e1e;
 }
 
 * {
@@ -69,11 +73,11 @@ body {
     color: var(--primary-color);
 }
 
-.nav-links.active {
+/* .nav-links.active {
     color: var(--primary-color);
     font-weight: bold;
     border-bottom: 2px solid var(--primary-color);
-}
+} */
 
 .project-links a:hover {
     color: var(--primary-color);
@@ -444,16 +448,16 @@ h2 {
     text-align: center;
 }
 
-.certificate-card:hover {
-    background: whitesmoke;
-}
-
 .certificate-card a {
     display: inline-block;
     margin-top: 1rem;
     color: var(--secondary-color);
     text-decoration: none;
     font-weight: 500;
+}
+
+.certificate-card a:hover {
+    color: var(--primary-color);
 }
 
 /* Contact Section */
