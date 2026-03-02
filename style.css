@@ -9,6 +9,8 @@
     --section-padding: 100px 0;
     --card-bg: #2B2E41;
     --heading-color: #868B8F;
+
+
 }
 
 * {
@@ -212,6 +214,7 @@ body {
 .skill-icon:hover {
     transform: translateY(-3px);
     color: var(--primary-color);
+    background: whitesmoke;
 }
 
 .hero-image {
@@ -439,6 +442,10 @@ h2 {
     padding: 1.5rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
+}
+
+.certificate-card:hover {
+    background: whitesmoke;
 }
 
 .certificate-card a {
